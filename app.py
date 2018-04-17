@@ -65,14 +65,14 @@ app.layout = html.Div([
                     html.Div([
                         html.Div([
                         html.H5('The Line Chart', className='card-title'),  
-                        html.P("The second chart shows the total global plays by date. For Ed Sheeran Shape of You, he released the song at the beginning of January and then the song was also on his March album release. So you can clearly see the two spikes, which might be evidence of two separate marketing pushes. The song spiked again on New Year's Eve The general shape of a song is that it gets peak plays early in the release and quickly fizzles out.", className='intro-information card-text')                            
+                        html.P("The first chart shows the total global plays by date. For Ed Sheeran Shape of You, he released the song at the beginning of January and then the song was also on his March album release. So you can clearly see the two spikes, which might be evidence of two separate marketing pushes. The song spiked again on New Year's Eve The general shape of a song is that it gets peak plays early in the release and quickly fizzles out.", className='intro-information card-text')                            
                         ], className='card-body')
                     ], className='card')]),
                 html.Div([
                     html.Div([
                         html.Div([  
                                 html.H5('The Bar Chart', className='card-title'),
-                                html.P('The dashboard contains two charts: a bar chart showing the order in which the song reached peak by country. For instance, Ed Sheeran Shape of You was the most played song in the data set. The song first hit peak number of plays in Ireland on January 6th, 2017 with about 130k plays Then it hit peak in the United Kingdom on January 9th with about 1.3 million plays', className='intro-information card-text'),
+                                html.P('The bar chart shows the order in which the song reached peak by country. For instance, Ed Sheeran Shape of You was the most played song in the data set. The song first hit peak number of plays in Ireland on January 6th, 2017 with about 130k plays Then it hit peak in the United Kingdom on January 9th with about 1.3 million plays', className='intro-information card-text'),
                                 html.P('So you can get a feel for how a song traveled around the world gaining popularity in waves. The bar colors represent English speaking countries, Spanish speaking countries, and others. Although there is not always a discernible pattern with the bar colors, Despacito by Luis Fonsi presents an interesting case where clearly the song was popular in Spanish speaking countries before the song became popular around the world.', className='intro-information card-text'),
                                 html.P('For further analysis, you could investigate if certain countries tend to be trendsetters especially by specific genres.', className='intro-information card-text')                    
                         ], className='card-body')
