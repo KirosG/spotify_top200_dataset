@@ -1,5 +1,7 @@
 # Spotify Analysis - Top 200 Songs Played in 2017
 
+## Link to Data dashboard: https://spotify-app-dash.herokuapp.com/
+
 ### Data Source
 
 This data set came from Kaggle: [Data Set Link](https://www.kaggle.com/edumucelli/spotifys-worldwide-daily-song-ranking).
@@ -15,6 +17,20 @@ This data set came from Kaggle: [Data Set Link](https://www.kaggle.com/edumucell
 * total_plays_by_date.csv - data for the Plotly dashboard. This data is outputted by spotifyanalysis.ipynb
 * world-countries.json - world map file
 
+### Key Findings
 
+See [spotifynalaysis.ipynb](https://github.com/andrewpaster/spotify_top200_dataset/blob/master/spotifyanalysis.ipynb) for more key findings and code.
+
+#### Ed Sheeran Dominated the Year
+
+![Ed Sheeran on Top](resources/top_plays.png)
+
+#### Songs Tend to Peak When They First Come Out and there is often a Spike near the End of the Year
+
+![Peak Plays](resources/Zedd.png)
+
+#### Spanish Speaking Country Listening Habits Have a Clear Cluster Separate from the Rest of the World
+
+![Spanish Cluster](resources/all_cluster.png)
 
 
